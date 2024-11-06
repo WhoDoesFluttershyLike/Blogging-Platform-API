@@ -49,7 +49,8 @@ This is a simple **RESTful API** for a **Personal Blogging Platform**. The API a
 ## Installation
 
 **1. Clone the repository**: git clone https://github.com/WhoDoesFluttershyLike/Blogging-Platform-API.git
-cd blogging-platform-api
+
+cd Blogging-Platform-API
 
 **2. Install dependencies**: mvn clean install
 
