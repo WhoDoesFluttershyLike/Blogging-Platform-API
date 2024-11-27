@@ -35,7 +35,7 @@ public class RestController {
         categoryService.save(category);
         return category;
     }
-    @PostMapping("/update")
+    @PutMapping("/update")
     public List<Posts> update(@RequestParam int id, @RequestParam String title, @RequestParam String content,
                          @RequestParam String category) {
         Posts post = postService.getPost(id);
@@ -62,7 +62,7 @@ public class RestController {
         postService.save(post);
         return postService.getAll();
     }
-    @PostMapping("/delete")
+    @DeleteMapping ("/delete")
     public void delete(int id) {
         postService.delete(id);
     }
